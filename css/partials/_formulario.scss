@@ -1,0 +1,57 @@
+.container1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    flex: 2;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    background: url(../images/traveling.jpeg) center/cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.frase{
+    font-family: 'Urbanist';
+    font-size: 30px;
+    font-weight: lighter;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
